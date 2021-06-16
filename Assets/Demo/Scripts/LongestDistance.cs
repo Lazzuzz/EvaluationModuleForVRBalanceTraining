@@ -29,6 +29,9 @@ public class LongestDistance : MonoBehaviour
 
     void Start()
     {
+        //REMOVE
+        tracedDevice = trackedDevice.RIGHTHAND;
+        //REMOVE
 
         tracking.setup(tracedDevice);
         //tracking.setup(startTrace.traced);

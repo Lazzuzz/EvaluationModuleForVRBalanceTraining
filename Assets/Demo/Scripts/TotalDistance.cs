@@ -52,6 +52,11 @@ public class TotalDistance : MonoBehaviour
 
         //SWITCH TRACED DEVICE AFTER DEMO
         //t.setup(startTrace.traced);
+
+        //REMOVE
+        tracedDevice = trackedDevice.RIGHTHAND;
+        //REMOVE
+
         t.setup(tracedDevice);
 
         List<InputDevice> devices = new List<InputDevice>();

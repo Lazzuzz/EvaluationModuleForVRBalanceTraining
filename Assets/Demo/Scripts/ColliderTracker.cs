@@ -96,6 +96,11 @@ public class ColliderTracker : MonoBehaviour
         {
             scoreTracker.setTargetScore(inputScore);
         }
+
+        //REMOVE
+        tracedDevice = trackedDevice.RIGHTHAND;
+        //REMOVE
+
         t.setup(tracedDevice);
     }
 

@@ -33,6 +33,10 @@ public class NaiveDistance : MonoBehaviour
     void Start()
     {
         //t.setup(startTrace.traced);
+
+        //REMOVE
+        tracedDevice = trackedDevice.RIGHTHAND;
+        //REMOVE
         t.setup(tracedDevice);
 
         List<InputDevice> devices = new List<InputDevice>();
